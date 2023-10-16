@@ -655,10 +655,15 @@ img {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .footer-item {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 17.5px;
     margin-bottom: 72px;
+
 }
 
 .footer-logo {
@@ -669,9 +674,8 @@ img {
     letter-spacing: 0.03em;
     font-family: "Raleway", sans-serif;
     display: flex;
-    margin-bottom: 17.5px;
     align-items: center;
-    justify-content: center;
+    margin: 0 auto;
 }
 
 .footer-logo span {
@@ -697,10 +701,7 @@ img {
        
 }
 
-.footer-item {
-    display: block;
-    
-}
+
 
 
 
@@ -1177,34 +1178,43 @@ img {
     .portfolio-item {
         width: calc((100% - 24px) / 2);
     }
+       
+   
+    .footer-logo {
+    display: inline-block;
+    margin-bottom: 17.5px;
+    
+        
+    }
 
     .footer-cont {
-        max-width: 584px;
-        gap: 24px;
+        margin-left: 108px;
+    }
+    .footer-soc-item {
+        margin: 0;
     }
 
     .footer-text {
         max-width: 264px;
     }
 
+    .footer-item {
+    display: block;
+    margin-right: 24px;
+    }
+    
     .footer-soc-text {
-        text-align: start;
+    text-align: start;
     }
 
-    .footer-logo {
-        display: inline-block;
-    }
-
-    .footer-cont {
-        margin-left: 108px;
-    }
-
-    .footer-soc-wrap {
-        margin: 0;
-    }
-
-
+    
+        
+    
+        
 }
+
+
+
 
 @media screen and (min-width: 1158px) {
     .container {
