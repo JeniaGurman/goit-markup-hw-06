@@ -1166,11 +1166,37 @@ img {
     .portfolio-item {
         width: calc((100% - 24px) / 2);
     }
+    .footer {
+        display: flex;
+        padding-top: 96px;
+        padding-bottom: 96px;
+         
+    }
+
+    .footer-cont {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        width: calc((100% - 24px) / 2);
+    }
+
+    .footer-text {
+        margin-bottom: 0;
+    }
+
+    .footer-logo {
+        display: flex;
+        margin-bottom: 16px;
+        
+    }
 
     .footer-soc-wrap {
-        justify-content: flex-start;
-        top: 0;
+       
 
+    }
+
+    .footer-subtitle-text {
+        
     }
 
 
