@@ -1,4 +1,4 @@
- .body {
+.body {
     font-family: 'Roboto', sans-serif;
 
     color: #434455;
@@ -1215,7 +1215,7 @@ img {
 
     .footer-bottom {
         margin-top: 0;
-        justify-items: start;
+        margin-right: 40px;
         
     
     }
@@ -1323,6 +1323,42 @@ img {
 
     .portfolio-item {
         width: calc((100% - 24px * 2) / 3);
+    }
+
+    .container.footer-cont {
+        min-width: 1158px;
+        
+    }
+
+    .footer-cont {
+        display: flex;
+        align-items: baseline;
+    }
+
+    .footer {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        display: flex;
+    }
+
+    .footer-form {
+        display: flex;
+        gap: 24px;
+        
+    
+    }
+
+    .footer-soc-wrap {
+        padding-right: 0;
+        margin-right: auto;
+    }
+
+    .footer-item {
+        margin-right: 120px;
+    }
+
+    .footer-soc-wrap {
+        margin-right: 80px;
     }
 
 }
