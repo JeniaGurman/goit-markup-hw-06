@@ -1,4 +1,4 @@
-.body {
+ .body {
     font-family: 'Roboto', sans-serif;
 
     color: #434455;
@@ -698,8 +698,6 @@ img {
     justify-content: center;
     
     
-    
-    
        
 }
 
@@ -717,7 +715,6 @@ img {
     align-items: center;
     justify-content: center;
     display: flex;
-    
     
     
 
@@ -1181,6 +1178,11 @@ img {
     .portfolio-item {
         width: calc((100% - 24px) / 2);
     }
+
+    .container.footer-cont {
+        min-width: 584px;
+        
+    }
        
    
     .footer-logo {
@@ -1191,7 +1193,8 @@ img {
     }
 
     .footer-cont {
-        margin-left: 108px;
+        align-items: baseline;
+        justify-content: center;
     }
     .footer-soc-item {
         margin: 0;
@@ -1207,13 +1210,39 @@ img {
     }
     
     .footer-soc-text {
-    text-align: start;
+    justify-content: start;
     }
 
-    
+    .footer-bottom {
+        margin-top: 0;
+        justify-items: start;
         
     
+    }
+
+    .footer-subtitle-text {
+        justify-content: start;
+    }
+
+    .footer-label {
+        min-width: 264px;
+    }
+
+    .footer-form {
+        flex-wrap: nowrap;
+        justify-content: start;
+        justify-items: left;
+    }
+
+    .footer-form-btn {
+        min-width: 165px;
+
         
+    }
+
+
+
+
 }
 
 
