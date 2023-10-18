@@ -148,7 +148,7 @@ img {
 }
 
 .address-soc {
-    color: var(--SLATE, #434455);
+    background-color: var(--SLATE, #434455);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -166,12 +166,12 @@ img {
 
 .mob-menu {
     position: fixed;
-    width: 100%;
+    max-width: 320px;
 
     top: 0;
     left: 0;
     z-index: 1;
-    width: 100vw;
+    
     height: 100vh;
     background-color: #ffffff;
     padding: 24px 24px 40px 16px;
@@ -209,36 +209,39 @@ img {
 
 }
 .mob-name-soc {
-    display: flex;
     gap: 40px;
+    display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 48px;
     
+    
 }
 
 .mob-menu-link {
-    color: var(--NAVY-BLUE, #2E2F42);
+    
     font-size: 36px;
     font-weight: 700;
     line-height: 1.12;
     letter-spacing: 0.02em;
+    color: var(--NAVY-BLUE, #2E2F42);
 }
 
 .mob-menu-soc {
-    color: var(--SLATE, #434455);
+    
     margin-top: 168px;
        
 }
 
 .mob-name-soc {
     display: flex;
-    width: 100%;
+    max-width: 320px;
 }
 
 .mob-soc-list {
     width: 40px;
     height: 40px;
+
     
 }
 
@@ -260,12 +263,17 @@ img {
     fill: #f4f4fd;
 }
 .mob-soc-item {
+    color: var(--SLATE, #434455);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02px;
     padding-top: 24px;
     
+}
+
+.mob-address-soc {
+    color: var(--NAVY-BLUE, #2E2F42);
 }
 
 .mob-menu-link:hover,
@@ -275,7 +283,7 @@ img {
 
 .mob-address-soc:hover,
 .mob-address-soc:focus {
-    color: #404bbf;
+    color: #404bbf;  
 }
 
 
