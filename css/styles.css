@@ -122,14 +122,14 @@ img {
 
 }
 
-.studio {
+.current {
     position: relative;
     color: #404bbf;
-    bottom: -1px;
+    bottom: 0;
 
 }
 
-.studio::after {
+.current::after {
     content: '';
     position: absolute;
     width: 100%;
@@ -1134,6 +1134,34 @@ img {
             background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people_office_tab_x2.jpg);
         }
     }
+    .header {
+        display: block;
+    }
+
+    .header-logo {
+        margin-right: 120px;
+    }
+
+    
+    
+    .menu-open-btn {
+        display: none;
+    }
+
+    .header-menu {
+        display: block;
+        display: flex;
+            
+    }
+
+    .header-menu-link {
+        padding-bottom: 24px;
+    }
+
+    .address-soc {
+        display: block;
+        margin-left: auto;
+    }
 
     .business-title {
         max-width: 496px;
@@ -1180,7 +1208,7 @@ img {
     }
 
     .container.footer-cont {
-        min-width: 584px;
+        max-width: 584px;
         
     }
        
@@ -1194,19 +1222,19 @@ img {
 
     .footer-cont {
         align-items: baseline;
-        justify-content: center;
+        justify-content: left;
     }
     .footer-soc-item {
         margin: 0;
     }
 
     .footer-text {
-        max-width: 264px;
+        min-width: 264px;
     }
 
     .footer-item {
     display: block;
-    margin-right: 24px;
+    
     }
     
     .footer-soc-text {
@@ -1215,9 +1243,7 @@ img {
 
     .footer-bottom {
         margin-top: 0;
-        margin-right: 40px;
-        
-    
+            
     }
 
     .footer-subtitle-text {
@@ -1226,6 +1252,7 @@ img {
 
     .footer-label {
         min-width: 264px;
+        gap: 24px;
     }
 
     .footer-form {
@@ -1268,6 +1295,13 @@ img {
             background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people_office_x2.jpg);
         }
     }
+
+    .address-soc {
+        display: block;
+        display: flex;
+        margin-left: auto;
+    }
+
 
     .business-title {
         max-width: 496px;
@@ -1326,7 +1360,8 @@ img {
     }
 
     .container.footer-cont {
-        min-width: 1158px;
+        max-width: 1158px;
+        flex-wrap: nowrap;
         
     }
 
@@ -1355,6 +1390,7 @@ img {
 
     .footer-item {
         margin-right: 120px;
+        margin-bottom: 0;
     }
 
     .footer-soc-wrap {
