@@ -148,7 +148,8 @@ img {
 }
 
 .address-soc {
-    
+
+   
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -172,7 +173,6 @@ img {
     top: 0;
     left: 0;
     z-index: 1;
-
     height: 100vh;
     background-color: #ffffff;
     padding: 24px 24px 40px 16px;
@@ -199,15 +199,8 @@ img {
 
 }
 
-
-
-
-
 .mob-menu-item:not(:last-child) {
     margin-bottom: 40px;
-
-
-
 }
 
 .mob-name-soc {
@@ -216,12 +209,11 @@ img {
     align-items: center;
     justify-content: center;
     margin-top: 48px;
-
-
 }
 
-.mob-menu-link {
 
+
+.mob-menu-link {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.12;
@@ -230,7 +222,6 @@ img {
 }
 
 .mob-menu-soc {
-
     margin-top: 168px;
 
 }
@@ -243,7 +234,6 @@ img {
 .mob-soc-list {
     width: 40px;
     height: 40px;
-
 
 }
 
@@ -279,6 +269,10 @@ img {
     color: var(--NAVY-BLUE, #2E2F42);
 }
 
+.mob-address-soc {
+    color: var(--NAVY-BLUE, #2E2F42);
+}
+
 .mob-menu-link:hover,
 .mob-menu-link:focus {
     color: #404bbf;
@@ -286,7 +280,7 @@ img {
 
 .mob-address-soc:hover,
 .mob-address-soc:focus {
-    color: #404bbf;
+    color: #404bbf;  
 }
 
 
@@ -1153,6 +1147,34 @@ img {
             background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people_office_tab_x2.jpg);
         }
     }
+    .header {
+        display: block;
+    }
+
+    .header-logo {
+        margin-right: 120px;
+    }
+
+    
+    
+    .menu-open-btn {
+        display: none;
+    }
+
+    .header-menu {
+        display: block;
+        display: flex;
+            
+    }
+
+    .header-menu-link {
+        padding-bottom: 24px;
+    }
+
+    .address-soc {
+        display: block;
+        margin-left: auto;
+    }
 
     .header {
         display: block;
@@ -1230,9 +1252,7 @@ img {
 
     .container.footer-cont {
         max-width: 584px;
-
     }
-
 
     .footer-logo {
         display: inline-block;
@@ -1265,7 +1285,17 @@ img {
 
     .footer-bottom {
         margin-top: 0;
+        display: block;
+    
+    }
+    
+    .footer-soc-text {
+    justify-content: start;
+    }
 
+    .footer-bottom {
+        margin-top: 0;
+ 
     }
 
     .footer-subtitle-text {
@@ -1293,9 +1323,6 @@ img {
             min-height: 623px;
             padding: 72px 24px 24px 24px;
         }
-
-
-
 
 }
 
@@ -1406,7 +1433,6 @@ img {
     .footer-form {
         display: flex;
         gap: 24px;
-
 
     }
 
