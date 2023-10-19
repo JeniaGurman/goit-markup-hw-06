@@ -60,9 +60,11 @@ img {
 /*============ Header=============*/
 
 .header {
+    padding: 16px 0;
     border-bottom: 1px solid #e7e9fc;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
+
 
 .header-container {
     display: flex;
@@ -164,6 +166,11 @@ img {
 .address-soc:focus {
     color: #404bbf;
 
+}
+
+.menu-open-btn {
+    border: none;
+    background-color: transparent;
 }
 
 .mob-menu {
@@ -357,7 +364,7 @@ img {
 /*===========Individual=====*/
 
 .individual {
-    padding: 120px 0;
+    padding: 96px 0;
     display: flex;
 }
 
@@ -403,6 +410,7 @@ img {
     color: var(--SLATE, #434455);
     font-size: 16px;
     line-height: 1.5;
+    font-weight: 500;
     letter-spacing: 0.02em;
 }
 
@@ -651,7 +659,7 @@ img {
 
 .footer {
     background: var(--NAVY-BLUE, #2E2F42);
-    padding-top: 97.5px;
+    padding-top: 96px;
     padding-bottom: 96px;
 
 }
