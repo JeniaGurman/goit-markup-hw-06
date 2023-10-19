@@ -145,6 +145,8 @@ img {
     bottom: -1px;
 }
 
+
+
 .address {
     font-style: normal
 }
@@ -175,20 +177,22 @@ img {
 
 .mob-menu {
     position: fixed;
-    max-width: 320px;
+    width: 100%;
 
     top: 0;
     left: 0;
     z-index: 1;
     height: 100vh;
     background-color: #ffffff;
-    padding: 24px 24px 40px 16px;
+    padding: 72px 24px 40px 16px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     opacity: 0;
     visibility: hidden;
     pointer-events: auto;
 }
+
 
 .menu-close-btn {
 
@@ -198,12 +202,18 @@ img {
     margin-left: auto;
     width: 24px;
     height: 24px;
-    margin-bottom: 24px;
+    position: absolute;
+    top: 24px;
+    right: 24px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     background-color: var(--CORNFLOWER, #E7E9FC);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
+}
+
+.mob-menu-block {
+    margin-bottom: auto;
 }
 
 .mob-menu-item:not(:last-child) {
@@ -228,10 +238,10 @@ img {
     color: var(--NAVY-BLUE, #2E2F42);
 }
 
-.mob-menu-soc {
-    margin-top: 168px;
-
+.active {    
+    color: var(--OCEAN, #404BBF);
 }
+
 
 .mob-name-soc {
     display: flex;
@@ -674,7 +684,7 @@ img {
 .footer-item {
     display: flex;
     flex-wrap: wrap;
-    gap: 17.5px;
+    gap: 16px;
     margin-bottom: 72px;
 
 }
@@ -1182,6 +1192,7 @@ img {
     .address-soc {
         display: block;
         margin-left: auto;
+        gap: 12px;
     }
 
     .header {
@@ -1214,12 +1225,20 @@ img {
         margin-left: auto;
     }
 
+    .business  {
+        padding: 112px 0;
+    }
+
     .business-title {
         max-width: 496px;
         margin: 0 auto;
         margin-bottom: 36px;
         font-size: 56px;
         line-height: 1.07;
+    }
+
+    .individual {
+        padding: 96px 0;
     }
 
     .individual-list {
@@ -1364,6 +1383,10 @@ img {
         margin-left: auto;
     }
 
+    .business {
+        max-width: 1440px;
+    }
+
 
     .business-title {
         max-width: 496px;
@@ -1374,7 +1397,7 @@ img {
     }
 
     .individual {
-        padding: 120px 0;
+        padding: 188px 0;
         display: flex;
     }
 
@@ -1454,8 +1477,9 @@ img {
         margin-bottom: 0;
     }
 
-    .footer-soc-wrap {
-        margin-right: 80px;
+    .footer-bottom {
+        margin-left: 80px;
     }
 
+   
 }
