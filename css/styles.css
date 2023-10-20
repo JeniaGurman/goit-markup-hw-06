@@ -69,7 +69,7 @@ img {
 .header-container {
     display: flex;
     align-items: center;
-    max-height: 72px;
+    
 }
 
 .header-navigation {
@@ -1175,11 +1175,7 @@ img {
         padding-bottom: 24px;
     }
 
-    .address-soc {
-        display: block;
-        margin-left: auto;
-        margin-top: 12px;
-    }
+    
 
     .header {
         display: block;
@@ -1206,9 +1202,19 @@ img {
     }
 
     .address-soc {
-        color: var(--SLATE, #434455);
-        display: block;
+        
+        display: flex;
+        flex-direction: column;
         margin-left: auto;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .address-soc-link {
+        font-size: 12px;
+        line-height: 1.17;
+        color: var(--SLATE, #434455);
+        
     }
 
     .business  {
