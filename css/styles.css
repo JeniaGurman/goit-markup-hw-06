@@ -1220,7 +1220,8 @@ img {
 
     @media (min-divice-pixel-ratio: 2),
     (min-rezolution: 192dpi),
-    (min-rezolution: 2dppx) {
+    (min-rezolution: 2dppx), 
+    (min-width: 768px) {
         .business {
             background-image: linear-gradient(var(--GREY, rgba(46, 47, 66, 0.70)), var(--GREY, rgba(46, 47, 66, 0.70))), url(../images/people_office_tab_x2.jpg);
         }
@@ -1381,7 +1382,8 @@ img {
 
     @media (min-divice-pixel-ratio: 2),
     (min-rezolution: 192dpi),
-    (min-rezolution: 2dppx) {
+    (min-rezolution: 2dppx),
+    (min-width: 1158px) {
         .business {
             background-image: linear-gradient(var(--GREY, rgba(46, 47, 66, 0.70)), var(--GREY, rgba(46, 47, 66, 0.70))), url(../images/people_office_x2.jpg);
         }
